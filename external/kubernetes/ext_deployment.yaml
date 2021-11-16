@@ -16,7 +16,7 @@ spec:
         app: events-external
     spec:
       containers:
-              - image: akarnam/capstone_ext:v1
+      - image: akarnam/capstone_ext:v1
         name: events-external
         imagePullPolicy: "Always"
         env:
